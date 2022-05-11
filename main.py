@@ -92,5 +92,5 @@ def initialize_voxels():
     make(tri,5.7,30.8,6.9,0.0,0.0,0.0,vec3(-49,-1,14),vec3(0.0,-1.0,0.0),vec3(-0.0,-0.0,-1.0),rgb(255,255,255),1,1)
     make(box,2.6,30.8,15.4,0.0,0.0,0.0,vec3(0,-1,13),vec3(0.0,-1.0,0.0),vec3(-1.0,-0.0,0.0),rgb(255,255,255),1,1)
 
-initialize_voxels(); 
+initialize_voxels()
 scene.finish()
