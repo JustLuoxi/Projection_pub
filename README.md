@@ -46,5 +46,5 @@ Mouse and keyboard interface:
 <img src="figs/y-s.jpg" width="45%"></img>
 
 ## Acknowledge
-This artwork is inspired by [Shadow Art](http://graphics.stanford.edu/~niloy/research/shadowArt/shadowArt_sigA_09.html?utm_source=wechat_session&utm_medium=social&utm_oi=985598961864040448). The implenmentation is based on [The Girl with a Voxel Earring](https://github.com/maajor/maajor-voxel-challenge) and [its corresponding blog](https://mp.weixin.qq.com/s/KzlrWKhli5OwQvw5NrzLoQ).  
+This artwork is inspired by [Shadow Art](http://graphics.stanford.edu/~niloy/research/shadowArt/shadowArt_sigA_09.html?utm_source=wechat_session&utm_medium=social&utm_oi=985598961864040448). The implementation is based on [The Girl with a Voxel Earring](https://github.com/maajor/maajor-voxel-challenge) and [its related blog](https://mp.weixin.qq.com/s/KzlrWKhli5OwQvw5NrzLoQ).  
 
