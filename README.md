@@ -8,7 +8,7 @@
 
 ## Meaning
 世界是高维的，从来只有立场下的真相。任何事实都是取决于观测矩阵，总有些滤波和投影导致横看成岭侧成峰。
-The so-called reality is just a projection from a high-dimensional world. 
+Reality is hidden in the projection and position. 
 
 
 ## Installation
