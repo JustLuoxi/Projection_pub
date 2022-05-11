@@ -4,7 +4,9 @@ from taichi.math import *
 scene = Scene(voxel_edges=0.01,  exposure=1.2)
 scene.set_floor(-64, (1.0,1.0,1.0))
 scene.set_background_color((0/255.0,0/255.0,0/255.0))
-scene.set_directional_light((0.0, 1.0,0.0), 0.0, (1, 1, 1))
+scene.set_directional_light((0.0, 1.0,0.0), 0.0, (1, 1, 1)) # ￥
+# scene.set_directional_light((-1.0, 0.0,0.0), 0.0, (1, 1, 1)) # €
+# scene.set_directional_light((0.0, 0.0,1.0), 0.0, (1, 1, 1)) # $
 @ti.func
 def colortable(id):
     color = vec3(1.0,1.0,1.0)
