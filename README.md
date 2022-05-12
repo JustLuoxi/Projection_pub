@@ -1,7 +1,7 @@
 # <a name="title">Projection</a>
 
 <p align="center">
-<img src="figs/projection.gif" width="85%"></img>
+<img src="screenshots/projection.gif" width="85%"></img>
 </p>
 
 > Results of `python3 main.py` in different lighting direction. )
@@ -40,10 +40,10 @@ Mouse and keyboard interface:
 + Press `P` to save a screenshot.
 
 ## More examples
-<img src="figs/E-S.jpg" width="45%"></img>
-<img src="figs/e-y.jpg" width="45%"></img>
-<img src="figs/s-e.jpg" width="45%"></img>
-<img src="figs/y-s.jpg" width="45%"></img>
+<img src="screenshots/E-S.jpg" width="45%"></img>
+<img src="screenshots/e-y.jpg" width="45%"></img>
+<img src="screenshots/s-e.jpg" width="45%"></img>
+<img src="screenshots/y-s.jpg" width="45%"></img>
 
 ## Acknowledge
 This artwork is inspired by [Shadow Art](http://graphics.stanford.edu/~niloy/research/shadowArt/shadowArt_sigA_09.html?utm_source=wechat_session&utm_medium=social&utm_oi=985598961864040448). The implementation is based on [The Girl with a Voxel Earring](https://github.com/maajor/maajor-voxel-challenge) and [its related blog](https://mp.weixin.qq.com/s/KzlrWKhli5OwQvw5NrzLoQ).  
