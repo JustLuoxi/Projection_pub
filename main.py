@@ -41,7 +41,7 @@ def tri(r1, h, r2, round_unused, cone, vertex, p):
     r = vec3(p.x/r1, p.y, p.z/r2);rt=mix(1.0-cone,1.0,float(h-p.y)*0.5/h);r.z+=(r.x+1)*mix(-0.577, 0.577, vertex)
     q = ti.abs(r); return max(q.y-h,max(q.z*0.866025+r.x*0.5,-r.x)-0.5*rt)< 0
 @ti.func
-def make(func: ti.template(), p1, p2, p3, p4, p5, p6, pos, dir, up, color, mat, mode,random_c = True, add_noise=vec3(0.0)):
+def make(func: ti.template(),p1,p2,p3,p4,p5,p6,pos,dir,up,color,mat,mode,random_c=True,add_noise=vec3(0.0)):
     max_r = 2 * int(max(p3,max(p1, p2))); dir = normalize(dir); up = normalize(cross(cross(dir, up), dir))
     for i,j,k in ti.ndrange((-max_r,max_r),(-max_r,max_r),(-max_r,max_r)): 
         xyz = proj_plane(vec3(0.0,0.0,0.0), dir, up, vec3(i,j,k))
@@ -92,5 +92,5 @@ def initialize_voxels():
     make(tri,5.7,30.8,6.9,0.0,0.0,0.0,vec3(-49,-1,14),vec3(0.0,-1.0,0.0),vec3(-0.0,-0.0,-1.0),rgb(255,255,255),1,1)
     make(box,2.6,30.8,15.4,0.0,0.0,0.0,vec3(0,-1,13),vec3(0.0,-1.0,0.0),vec3(-1.0,-0.0,0.0),rgb(255,255,255),1,1)
 
-initialize_voxels(); 
+initialize_voxels()
 scene.finish()
